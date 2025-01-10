@@ -8,16 +8,47 @@
       @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
     </style>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <div class="container">
       <h1 class="head">memory</h1>
       <div class="box">
-        <div class="theme">
-          <h1 class="theme-text">Select Theme</h1>
-          <div class="buttons1">
-            <button class="theme-number">Numbers</button>
-            <button class="theme-icons">Icons</button>
+        <div class="box-container">
+          <div class="theme">
+            <h1 class="theme-text">Select Theme</h1>
+            <div class="buttons1">
+              <button class="theme-number">
+                <h1 class="theme-number-text">Numbers</h1>
+              </button>
+              <button class="theme-icons">
+                <h1 class="theme-icons-text">Icons</h1>
+              </button>
+            </div>
+          </div>
+
+          <div class="players-box">
+            <h1 class="players-box-text">Number of Players</h1>
+            <div class="box-numbers">
+              <button class="first-box">1</button>
+              <button class="second-box">2</button>
+              <button class="third-box">3</button>
+              <button class="fourth-box">4</button>
+            </div>
+          </div>
+
+          <div class="grid-box">
+            <h1 class="grid-text">Grid Size</h1>
+            <div class="grid-buttons">
+              <button class="square4x4">4x4</button>
+              <button class="square6x6">6x6</button>
+            </div>
+          </div>
+          <div class="Start-game-button">
+            <button class="Start-game">
+              <h1 class="game-text">Start game</h1>
+            </button>
           </div>
         </div>
       </div>
