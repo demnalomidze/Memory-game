@@ -1,0 +1,33 @@
+body {
+  background-color: #152938;
+  font-family: Atkinson Hyperlegible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.box {
+  background-color: white;
+  width: 330px;
+  height: 385px;
+  border-radius: 10px;
+}
+
+.theme-text {
+  font-size: 15px;
+  color: #7191a5;
+}
