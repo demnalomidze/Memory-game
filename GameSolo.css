@@ -1,0 +1,73 @@
+body {
+  font-family: Atkinson Hyperlegible;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 27px;
+}
+
+.head-left {
+  font-size: 24px;
+}
+
+.head-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.restart {
+  width: 78px;
+  height: 40px;
+  background-color: #fda214;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.restart-text {
+  font-size: 16px;
+  color: white;
+}
+
+.New-Game {
+  width: 94px;
+  height: 40px;
+  background-color: #dfe7ec;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.New-Game-text {
+  font-size: 16px;
+  color: #304859;
+}
+
+.playground {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #304859;
+  cursor: pointer;
+}
